@@ -1,0 +1,20 @@
+{
+    "name": "codigoycafe/dependency-inversion",
+    "description": "Explicación del principio de inversión de dependencia",
+    "type": "package",
+    "authors": [
+        {
+            "name": "Jorge Cortés",
+            "email": "codigoycafe.oficial@gmail.com",
+            "homepage": "https://bit.ly/3dgi1Ed"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/app",
+            "MyBank\\": "src/lib/MyBank",
+            "PayPal\\": "src/lib/PayPal"
+        }
+    },
+    "require": {}
+}
